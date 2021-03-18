@@ -1,0 +1,47 @@
+.cls-1 {
+  fill: #6b81be;
+}
+.cls-2 {
+  fill: #9ab3da;
+}
+.cls-3 {
+  fill: #f68d88;
+}
+.cls-4 {
+  fill: #404b7c;
+}
+.cls-5 {
+  fill: #ecbdbb;
+}
+.cls-6 {
+  fill: #f9d4d4;
+}
+.cls-7 {
+  fill: #fff;
+}
+
+.loading {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f68d88;
+  background-image: -webkit-linear-gradient(92deg, #9ab3da, #6b81be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  -webkit-animation: hue 10s infinite linear;
+}
+
+.sub-heading {
+  font-size: 10px;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
